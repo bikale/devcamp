@@ -5,6 +5,7 @@ const morgan = require('morgan');
 const errorHandler = require('./middleware/error');
 const connectDB = require('./config/db');
 const colors = require('colors');
+const mongoSanitize = require('express-mongo-sanitize');
 const fileupload = require('express-fileupload');
 const cookieParser = require('cookie-parser');
 //load env vars
@@ -48,6 +49,11 @@ if (process.env.NODE_ENV == 'development') {
 // File Uploading
 
 app.use(fileupload());
+
+// Sanitize data
+
+app.use(mongoSanitize());
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Mount router
