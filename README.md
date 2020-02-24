@@ -1,11 +1,13 @@
 # DevCamper API
 
-# Backend API for DevCamper application, which is a bootcamp directory website
+> Backend API for DevCamper application, which is a bootcamp directory website
 
-Technology Used
-1.NodeJs
-2.mongoDB
-3.expressjs
+## Technology Used
 
--Author
+-- NodeJs
+-- mongoDB
+-- expressjs
+
+## Author
+
 --Bikale Aberra
