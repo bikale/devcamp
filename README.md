@@ -4,10 +4,11 @@
 
 ## Technology Used
 
--- NodeJs
--- mongoDB
--- expressjs
+- NodeJs
+- MongoDB
+- Expressjs
 
 ## Author
 
---Bikale Aberra
+- Bikale A
+- Frehiwot T
