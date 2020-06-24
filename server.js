@@ -19,7 +19,7 @@ dotenv.config({ path: './config/config.env' });
 
 //Connect to database
 connectDB();
-
+//fre frecho
 //route file
 const bootcamps = require('./routes/bootcamps');
 const courses = require('./routes/courses');
